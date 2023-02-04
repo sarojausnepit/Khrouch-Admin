@@ -1,0 +1,352 @@
+
+.loginContainer{
+    background-color: #f0f2f5;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    
+  }
+  .container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .formContainer{
+    width: 40%;
+    margin: 0 auto;
+    background-color:white;
+    padding: 1rem;
+    border-radius: 20px;
+  
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  }
+  
+  .sider::-webkit-scrollbar {
+    width: 0.1rem;
+  }
+  
+  .sider::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
+  
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3)! important;
+    border-radius: 10px;
+  }
+  
+  .sider::-webkit-scrollbar-thumb {
+    background-color: #06517a;
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5)! important;
+    outline: 1px solid slategrey;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5)! important;
+  }
+  .buttonwithoutAnimation {
+    border-radius: 4px;
+    background-color: blue;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    height: 42px;
+  }
+  .button {
+      border-radius: 4px;
+      background-color: blue;
+      border: none;
+      color: #FFFFFF;
+      text-align: center;
+      padding: 10px 20px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 5px;
+      height: 42px;
+    }
+    .button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    
+    .button span:after {
+      content: '\002B';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    
+    .button:hover span {
+      padding-right: 25px;
+    }
+    
+    .button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  
+    /* contacts */
+    .flexRow{
+      display: flex;
+      flex-direction: row;
+      gap: 15rem;
+      align-items: center;
+    }
+  
+    .flexRowWithoutStyle{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    .flexRowSpaceBetween{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .flexColumnwithoutStyle{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
+    }
+    .flexColumn{
+      display: flex;
+      flex-direction: column;
+      gap: 4rem;
+    }
+  
+    .formCard{
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+      padding: 2rem;
+    }
+  
+    /* lead */
+    .cardHeader{
+      background-color: #eeeeee88;
+      padding: 0.5rem;
+      text-align: center;
+      border-radius: 12px;
+      color: #777;
+      margin: "1rem 0";
+    }
+  
+    .plusButton{
+      display: flex;
+      border: 1px solid #aaa;
+      width: 1.5rem;
+      height: 1.5rem;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      font-size: 20px;
+      background-color: white
+    }
+  .plusButton:hover{
+    color: blue
+  }
+    .cardStyle{
+      justify-content: space-between;
+      align-items: center;
+      /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; */
+      padding: 0.6rem;
+      border-radius: 2rem;
+    }
+    .roundCards {
+        padding: 0.3rem;
+        display: flex;
+        justify-content: space-between;
+        gap: 0.5rem;
+        background-color: #efefff;
+        border-radius: 2rem;
+    }
+    .redTag{
+      display: inline;
+      padding: 2px 3px;
+      border: 1px solid red;
+      text-align: center;
+      color: red;
+      border-radius: 8px;
+  }
+  .tag{
+    display: inline;
+    padding: 2px 3px;
+    text-align: center;
+    border-radius: 8px;
+  }
+  .greenTag{
+      display: inline;
+      padding: 2px 3px;
+      border: 1px solid green;
+      text-align: center;
+      color: green;
+      border-radius: 8px;
+  }
+  .blueTag{
+    display: inline;
+    padding: 2px 3px;
+    border: 1px solid blue;
+    text-align: center;
+    color: blue;
+    border-radius: 8px;
+  }
+  .orangeTag{
+    display: inline;
+    padding: 2px 3px;
+    border: 1px solid orange;
+    text-align: center;
+    color: orange;
+    border-radius: 8px;
+  }
+  .ant-table-wrapper {
+    overflow: hidden;
+    overflow-x: scroll;
+  }
+  .drawerStyle{
+      /* border: 2px solid #ccc; */
+      border-radius: 15px;
+      width: 90%;
+      margin: 0 auto;
+      padding: 0rem;
+      margin-top: 2rem;
+  }
+  .ClientDrawerStyle{
+    /* border: 2px solid #ccc; */
+    border-radius: 15px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .backgroundCard{
+    background-color: #eeeeee55;
+    border-radius: 1.5rem;
+    padding: 0.8rem;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    margin: 0.5rem;
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .folderFlex{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+  }
+  .iconStyle{
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .iconColor{
+    color: #999;
+  }
+  .clientImage{
+    height: 160px;
+    width: 160px;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+  }
+  .flexRowWithGap{
+    display: flex;
+    flex-direction: row;
+    gap: 0.2rem;
+    align-items: center;
+  }
+  
+  .leadLog{
+    display: inline-block;
+    width: 19%;
+  }
+  
+  /* for dashboard */
+  .cardDiv {
+    border-radius: 10px;
+    padding: 1rem;
+    width: 45%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;}
+    
+  
+  .imageAndParas{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+  .imageCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .textAndNumberDiv{
+      display: flex;
+      flex-direction: column;
+      
+  }
+  
+  .textPara{
+    font-size: 12pt;
+    font-weight: 600;
+    text-align: center;
+    color: #999;
+    
+  }
+  
+  
+  .numberPara{
+    display: inline-block;
+      font-size: 23pt;
+      font-weight: 600;
+      text-align: center;
+      color: rgb(162, 51, 84);
+  }
+  
+  .g2-html-annotation{
+    color: white!important;
+  }
+  
+  
+  .clientCard{
+    border-radius: 0.5rem;
+    margin: 1rem 0.5rem;
+  }
+  
+  .scoreStyle{
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    width: 40px;
+    height: 40px;
+    padding: 0.5rem;
+  }
+  .headerIcons{
+    font-size: 20px;
+    color: gray;
+    cursor: pointer;
+  }
+  .headerIcons:hover{
+    color: rgb(195, 172, 255);
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .formContainer{
+        width: 80%;
+  
+    }
+  }
+  .myCounselling:hover{
+    color: white;
+  }

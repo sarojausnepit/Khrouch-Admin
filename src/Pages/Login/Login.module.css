@@ -1,0 +1,21 @@
+.loginContainer{
+    background-color: #f0f2f5;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    
+
+}
+.formContainer{
+    width: 35%;
+    margin: 0 auto;
+    background-color:white;
+    padding: 1rem;
+    border-radius: 20px;
+
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.emailAndPassword{
+    width: 85%;
+    margin: 0 auto;
+}
